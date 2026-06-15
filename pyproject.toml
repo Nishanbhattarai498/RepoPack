@@ -3,7 +3,7 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "repopack"
+name = "repopack-tool"
 version = "0.1.0"
 description = "Pack an entire project into a single markdown bundle for documentation, sharing, or LLM ingestion."
 readme = "README.md"
