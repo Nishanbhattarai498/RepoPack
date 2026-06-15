@@ -1,5 +1,7 @@
 # repopack
 
+[![PyPI version](https://img.shields.io/pypi/v/repopack-tool.svg)](https://pypi.org/project/repopack-tool/)
+
 repopack is a small Python library that packs an entire project into a single markdown file. It walks the project tree, skips common build and virtualenv folders, and writes each included source file into a readable markdown bundle.
 
 ## Installation
@@ -20,7 +22,7 @@ pip install -e .
 
 ### Make it available to others
 
-To make it available on PyPI so other people can install it with `pip install repopack`, you need to:
+To make it available on PyPI so other people can install it with `pip install repopack-tool`, you need to:
 
 1. Create an account on https://pypi.org/
 2. Install build tools:
@@ -39,7 +41,7 @@ To make it available on PyPI so other people can install it with `pip install re
 After that, others can install it with:
 
 ```bash
-pip install repopack
+pip install repopack-tool
 ```
 
 ## Usage
