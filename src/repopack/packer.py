@@ -98,7 +98,7 @@ def pack_project_to_markdown(
                 encoded = base64.b64encode(path.read_bytes()).decode("ascii")
                 sections.append(f"## {relative_path}")
                 sections.append("")
-                sections.append(f"![{relative_path}]({mime_type};base64,{encoded})")
+                sections.append(f"![{relative_path}](data:{mime_type};base64,{encoded})")
                 sections.append("")
                 continue
             continue

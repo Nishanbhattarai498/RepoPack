@@ -5,9 +5,23 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "repopack"
 version = "0.1.0"
-description = "Copy repository contents into a packaged folder"
+description = "Pack an entire project into a single markdown bundle for documentation, sharing, or LLM ingestion."
 readme = "README.md"
 requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Nishan Bhattarai" }]
+keywords = ["markdown", "packaging", "project", "documentation", "llm"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Software Development :: Documentation"
+]
 
 [tool.setuptools]
 package-dir = {"" = "src"}

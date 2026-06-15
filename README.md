@@ -4,8 +4,42 @@ repopack is a small Python library that packs an entire project into a single ma
 
 ## Installation
 
+### Install locally from this folder
+
 ```bash
 pip install -e .
+```
+
+### Install from GitHub
+
+```bash
+git clone https://github.com/Nishanbhattarai498/RepoPack.git
+cd RepoPack
+pip install -e .
+```
+
+### Make it available to others
+
+To make it available on PyPI so other people can install it with `pip install repopack`, you need to:
+
+1. Create an account on https://pypi.org/
+2. Install build tools:
+   ```bash
+   python -m pip install --upgrade build twine
+   ```
+3. Build the package:
+   ```bash
+   python -m build
+   ```
+4. Upload it:
+   ```bash
+   python -m twine upload dist/*
+   ```
+
+After that, others can install it with:
+
+```bash
+pip install repopack
 ```
 
 ## Usage
