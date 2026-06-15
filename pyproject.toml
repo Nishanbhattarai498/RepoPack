@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "repopack-tool"
 version = "0.1.0"
-description = "Pack an entire project into a single markdown bundle for documentation, sharing, or LLM ingestion."
+description = "Package an entire project into a single, readable markdown bundle for documentation, sharing, and AI-assisted workflows."
 readme = "README.md"
 requires-python = ">=3.9"
 license = { text = "MIT" }
